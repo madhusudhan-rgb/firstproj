@@ -1,0 +1,36 @@
+body {
+
+    min-height: 100vh;
+	background-image: url(light.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	position: sticky;
+	top:0; left:0; right:0;
+	background-color: #D0DDDE;
+	box-shadow:  0 5px 10px burlywood;
+	padding: 14px 7%;
+	display: flex;
+}
+.navbar{
+	color: aquamarine;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+
+*{
+	margin: 0px ;
+	padding: 0px;
+	box-sizing: border-box;  
+    font-family: "oswald", serif ;
+	text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+
+	

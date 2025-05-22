@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+ 
+          <title>aboutus</title>
+		  <head>
+		  <meta charset = "UTF-8">
+	  <meta name="description" content="Airbus">
+  <meta name="keywords" content="About airbuses">
+  <meta name="Author" content="Madhusudhan">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  </head>
+    <body>
+	 <h1>Login form</h1>
+         <form action = "connect.php" method = "post">
+		 <fieldset>
+        <label for  = "fname">First name</label>
+        <input type = "text" id  = "fname" placeholder = "Enter your first name" required ><br><br>
+		<label for = "lname">last name</label>
+		<input type = "text" id = "lname" placeholder = "Enter your last name" required ><br><br>
+		<label for = "email">Email</label>
+		<input type = "email" placeholder = "Enter your email" required>
+		<label for = "Phone number"><br><br>Phone number</label><br><br>
+		<input type = "number" placeholder = "772-000-0000" pattern = "\([0-9]{3}-[0-9]\){3}-[0-9]{4}" required><br><br>
+		<input type = "password" input = "psw" placeholder = "password" name = "password here please" required><br>
+		<p>Gender</p>
+		<input type = "radio" id = "radio" ><label for = "radio">Male</label>
+		<input type = "radio" id = "radio1" ><label for = "radio">Female</label><br><br>
+		<p>hey</p>
+		
+		<input type = "checkbox" id = "checkbox" name = "planes1"><label for = "checkbox">planes1</label>
+		<input type = "checkbox" id = "checkbox" name = "planes2"><label for  = "checkbox">planes2</label><br>
+		
+		<label>Find a plane suitable for you (あなたに合った飛行機を見つけてください)</label><br>
+		   <select name = "plane1" id = "planes1">
+		        <option value = "a350">A350</option>
+				<option value = "a330">A330</option>
+				<option value = "a320">A320</option>
+		   </select>
+		<textarea placeholder = "enter your comments" rows = "5" cols = "200"></textarea><br>
+		<input type = "submit" value = "submit">
+		
+		</fieldset>
+	</body>
+</html>

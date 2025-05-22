@@ -1,0 +1,22 @@
+
+
+
+body {
+	background-color: aquamarine;
+	margin: 10px; 
+	padding: 20px;
+	
+}
+#h1 {
+	color: darkred;
+}
+
+.table{
+	padding: 10px; 
+	border-style: solid;
+	border-color: black;
+	background-color: maroon;
+}
+th {
+	background-color: white;
+}

@@ -1,0 +1,111 @@
+
+
+
+body {
+	background-image:url(bck.webp);
+	background-repeat:;
+	background-size: cover;
+	background-position:center;
+}
+
+header{
+	position: sticky;
+	top:0; left:0; right:0;
+	background-color:#475C6C;
+	box-shadow:  0 5px 10px burlywood;
+	padding: 14px 7%;
+	display: flex;
+    align-items:  center;
+	justify-content: spacebetween;
+	z-index: 1000;
+}
+ header.logo{
+	 font-weight: bolder;
+	 font-size: 25px;
+	 color: aquamarine;
+    
+ }
+ 
+  header  .navbar ul{
+	  list-style-type:none;
+  }
+  
+  header .navbar ul li {
+	  position:relative;
+	  float: left;
+  }  
+  
+  header .navbar ul li a {
+	  font-size: 20px;
+	  padding: 20px;
+	  margin:5px;
+	  color:burlywood;
+	  display:block;
+  }
+  
+  header .navbar ul li a:hover {
+	  text-decoration: underline;
+	  background: rgb(173, 170, 170);
+	  color: #fff;
+  }
+  
+  header .navbar ul li ul {
+	 position: absolute;
+	 left:0;
+	 width:200px;
+	 background:#fff;
+	 display:none;
+  }
+  
+  header .navbar ul li ul li {
+	  width:100%;
+	  border-top: 1px solid rgba(0,0,0,.1);
+  }
+  
+  
+   header .navbar ul li:focus-within > ul,
+   header .navbar ul li:hover > ul {
+	   display: initial;
+   }
+
+  button:hover {
+	  color:green;
+  }
+
+
+#menu-bar {
+display:none;
+}
+
+header label {
+	font-size:20px;
+	color:blue;
+	cursor:pointer;
+	display:none;
+}
+@media (max-width:991px){
+	header{
+		padding:20px;
+	}
+	
+	
+	 header label {
+		 display:initial;
+	 }
+	 header .navbar {
+		 position:absolute;
+		 top:100%; left:0; right:0;
+		 background:blue;
+		 border-top:1px solid rgba(0,0,0,.1);
+		 display:none;
+}
+  header .navbar ul li ul {
+	  width:100%;
+  }
+  header .navbar ul li ul {
+	  position:relative;
+	  width:100%;
+  }
+   #menu-bar:checked ~ .navbar {
+	   display: initial;
+   }
